@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+*{
+    font-family: "Chiron GoRound TC", sans-serif;
+}
+body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+    margin-bottom: -1vw;
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+header ul{
+    display: flex;
+    justify-content: start;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+header ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+.line-with-text::before,
+.line-with-text::after{
+    content: "";
+    flex: 1;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin: 0 10px;
+}
+.yslygi{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    margin-left: 7vw;
+    font-weight: 500;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+}
+.linehr{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+
+}
+.barber{
+    margin-right: 2vw;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+    
+}
+.topbarber{
+    margin-right: 2vw;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+    
+}
+.premiymbarber{
+    margin-right: 7vw;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+ 
+}
+
+.yslugamenu{
+    margin-left: 7vw;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(0, 0, 0) ;
+  
+}
+.summa1{
+    margin-right: 4.5vw;
+    font-size: 17px;
+    font-weight: 500;
+    color:  rgb(255, 115, 0);
+
+}
+
+.summa2{
+    margin-right: 7vw;
+    font-size: 17px;
+    font-weight: 500;
+    color:  rgb(255, 115, 0);
+
+}
+.summa3{
+    margin-right: 7vw;
+    font-size: 17px;
+    font-weight: 500;
+    color:  rgb(255, 115, 0);
+
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.elements{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+    margin-top: 8vw;
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+footer ul{
+    display: flex;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+#infInn{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+#infb{
+    color: aliceblue;
+    margin-left: 2vw;
+}

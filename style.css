@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+*{
+    font-family: "Chiron GoRound TC", sans-serif;
+}
+body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+    margin-bottom: -1vw;
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+header ul{
+    display: flex;
+    justify-content: start;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+header ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+.banner{
+    width: 100%;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+    margin-left: 7vw;
+}
+.information{
+    display: flex;
+}
+.information img{
+    width: 50%;
+    border-radius: 3vw;
+    margin-right: 7vw;
+}
+.information p{
+    margin-left: 7vw;
+    margin-right: 4vw;
+    line-height: 1.5vw;
+    font-size: 19px;
+    
+}
+.abautus{
+    margin-top: 8vw;
+}
+.cosmetic{
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+.cards{
+    display: flex;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    justify-content: space-between;
+   
+
+}
+.container{
+    width: 20%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-radius: 2vw;
+}
+h3{
+    margin-left: 2vw;
+}
+.container p{
+    margin-left: 2vw;
+    font-size: 15px;
+}
+button{
+    border-style: none;
+    width: 75%;
+    margin-left: 2vw;
+    height: 1.8vw;
+    border-radius: 1vw;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin-bottom: 2vw;
+}
+#button3{
+    margin-top: 2.5vw;
+    border-style: none;
+    width: 75%;
+    margin-left: 2vw;
+    height: 1.8vw;
+    border-radius: 1vw;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin-bottom: 2vw;
+}
+#button4{
+    margin-top: 3.5vw;
+    border-style: none;
+    width: 75%;
+    margin-left: 2vw;
+    height: 1.8vw;
+    border-radius: 1vw;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    margin-bottom: 2vw;
+}
+.img{
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+.articles{
+    margin-bottom: 8vw;
+}
+.article{
+    width: 20%;
+    color: aliceblue;
+    border-radius: 2vw;
+    width: 23%;
+}
+.cardsArticle{
+     display: flex;
+     justify-content: space-between;margin-left: 7vw;
+     margin-right: 7vw;
+}
+.article img{
+    width: 100%;
+    border-radius: 2vw;
+}
+.inf{
+    margin-top: -19vw;
+    margin-right: 2vw;
+}
+.article p{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-size: 14px;
+}
+.txt{
+    margin-top: 1vw;
+}
+footer{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+footer ul{
+    display: flex;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+#infInn{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+#infb{
+    color: aliceblue;
+    margin-left: 2vw;
+}
