@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+*{
+    font-family: "Chiron GoRound TC", sans-serif;
+}
+body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+    margin-bottom: -1vw;
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+header ul{
+    display: flex;
+    justify-content: start;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.menu{
+    margin-top: 0.5vw;
+}
+header ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+p{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 2vw;
+}
+h1{
+    margin-left: 7vw;
+    margin-right: 17vw;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    color:  rgb(255, 115, 0);
+    font-size: 50px;
+}
+h2{
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: rgb(43, 45, 46);
+    margin-top: 8vw;
+}
+.logo img{
+    width: 5%;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+footer ul{
+    display: flex;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer ul li { 
+    font-size: 15px;
+    list-style: none;
+    margin-top: -4vw;
+    margin-left: 8vw;
+    transition: transform 0.3s ease;
+}
+#infInn{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+#infb{
+    color: aliceblue;
+    margin-left: 2vw;
+}
